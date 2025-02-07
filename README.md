@@ -26,7 +26,7 @@ kafka_2.13-3.9.0.tgz
  ```
 #### Describe Topics
 ```bash
-./kafka-topics.sh --describe --topic testtopic --bootstrap-server localhost:9092
+./kafka-topics.sh --describe --topic topic-test --bootstrap-server localhost:9092
  ```
 #### List Topics
 ```bash
@@ -39,7 +39,7 @@ kafka_2.13-3.9.0.tgz
 
 #### Kafka Console Producer
 ```bash
- ./bin/kafka-console-producer.sh --broker-list localhost:9092,localhost:9093,localhost:9094 --topic testtopic
+ ./bin/kafka-console-producer.sh --broker-list localhost:9092,localhost:9093,localhost:9094 --topic topic-test
 ```
 #### Describe group Consumer
 ```bash
